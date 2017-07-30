@@ -3,8 +3,6 @@
 
 
 
-#**********************************************************************
-#  the upside code maybe is wrong,the followed maybe right.
 
 input1=[0, 0, 1, 1]
 input2=[0, 1, 0, 1]
