@@ -1,11 +1,10 @@
-
 import sys
-from decimal import Decimal
-print "welcome to our new program"
+import decimal
+print"welcome to our new program"
 # variable = value
 name ="mark"
 x =3
-       # 0,1,2, 3 , 4 位置代码
+#        0,1,2, 3 , 4  the id of number element
 coord = [2,4,12,34,10]
 print coord
 print coord [0]
@@ -15,8 +14,8 @@ coord = [2,4,12,34,10,2,4,12,34,10,2,4,12,34,102,4,12,34,102,4,12,34,102,4,12,34
 print coord
 print len(coord)
 coord.sort()
-#make the elements of coord in order and class with the same
-#sys.exit()
+#make the elements of coord in order and group with the same
+
 
 print "for loop start"
 # start the for cycle
@@ -42,7 +41,7 @@ for wws in zuobiao:
      print len(zuobiao)
 print "nice"
 print len(zuobiao)
-fancy_list =[1,2,3,5,7,8,432,323,"asd",[162,23],"family"]  #下划线   shift键加减号       混合内容列表 fancy_list
+fancy_list =[1,2,3,5,7,8,432,323,"asd",[162,23],"family"]
 print fancy_list
 for hh in fancy_list:
     print hh
@@ -83,7 +82,7 @@ for name in marklab:
 print "for loop stop"
 print "feel nice"
 i=100
-print "while loop start"# while 循环启动
+print "while loop start"
 while 0<i<=100:
     i=i-1
     print i
