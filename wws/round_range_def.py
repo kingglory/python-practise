@@ -1,9 +1,9 @@
-#coding=utf-8     #  中文注释必备
+
 import sys
-#from decimal import *   # 高精度模块decimal
+from decimal import *
 w=1.2222226766666666666666
-round(2.5)
-print round
+print round(2.5)
+
 
 print "welcome to our new program"
 a=22
@@ -27,14 +27,16 @@ print h
 family = ["mark","zhengmin","xuyanting","xuruiqin","wangwensong"]
 
 
-for x in range(0,100,2):     #  从0数到100，间隔为2
+for x in range(0,100,2):
+#count number from 0 to 99,the step is 2
     print str(x)+family[0],str(x+1)+family[1],str(x+2)+family[2],str(x+3)+family[3],str(x+4)+family[4]
     x=x+1
 
-for x in range(0,100,5):              # 从0数到100，间隔为5
+for x in range(0,100,5):
     print str(x)+family[0],str(x+1)+family[1],str(x+2)+family[2],str(x+3)+family[3],str(x+4)+family[4]
     x=x+1
-#sys.exit()      # 程序运行遇到这组代码就停止
+#sys.exit()
+#  the program running will be stoped when suffering this command.
 
 coord=[12,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,2312,321,1,2,2,3,3,2,213,123,34,5,54,4,3,3,332,22,43,23,4,212,23,2,23]
 for index,name in enumerate(family):
@@ -45,7 +47,8 @@ fancy_list.sort()
 print fancy_list
 coord.sort()
 print coord
-for id ,thing in enumerate(fancy_list):   # enumerate 将列表排序，并每个元素之前有序列号码，id和thing可以随便设定
+for id ,thing in enumerate(fancy_list):
+# enumerate make the list in order,and with a number befor each element
     print id,thing
 
 for bilibili ,haizeiwang in enumerate(family):
@@ -70,7 +73,8 @@ else:
     print "you can't use it"
 
 l=[True,True,False,False,True]
-l.append(False)     # 给数组l添加一个元素False
+l.append(False)
+# a False element is added to the last of the list.
 
 for o in range(0,100,3):
     print o
@@ -78,5 +82,5 @@ print h
 print l
 family.append("wws")
 print family
-family.sort()    # 对family数组进行排序
+family.sort()
 print family
