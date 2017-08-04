@@ -1,9 +1,10 @@
 
-print 7/4,        7.0/4.0      # 第一个是取整，第二个是做除法
+print 7/4, 7.0/4.0
 print "I will now count my chickens:"
 
 print "hens",25+30/6
-#  / get integer,not rest，% get the rest,not integer 1/4=0    7%5=2
+print 1/4,7%5
+
 print "roosters",100-25*3%4
 
 print "now I will count the eggs: "
