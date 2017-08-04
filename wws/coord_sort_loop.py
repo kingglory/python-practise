@@ -1,5 +1,5 @@
 import sys
-import decimal
+from decimal import *
 print"welcome to our new program"
 # variable = value
 name ="mark"
